@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-900: #0D5C4A;
+  --color-brand-800: #11735D;
+  --color-brand-700: #168C72;
+  --color-brand-dark: #094236;
+  --color-lime-cta: #A3E635;
+  --color-lime-cta-hover: #bef264;
+  --font-sans: var(--font-sans);
+  --font-outfit: var(--font-outfit);
+  --font-serif: var(--font-serif);
+}
+
+body {
+  background-color: var(--color-brand-900);
+  background-image: linear-gradient(to left, rgba(20, 110, 90, 0.4), transparent);
+  background-attachment: fixed;
+  color: white;
+}

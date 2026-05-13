@@ -1,0 +1,8 @@
+{
+  "name": "KDTF NGO Website",
+  "description": "A modern, premium NGO website for Kalwati Devi Trust Foundation (KDTF) focusing on empowering Indian women through skill development.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
