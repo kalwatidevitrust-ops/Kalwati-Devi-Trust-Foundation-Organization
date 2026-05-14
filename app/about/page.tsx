@@ -10,6 +10,7 @@ import cert80G from '@/src/assets/images/regenerated_image_1778683725128.png';
 import darpanCert from '@/src/assets/images/regenerated_image_1778683408039.jpg';
 import csrCert from '@/src/assets/images/regenerated_image_1778684037119.png';
 import missionImg from '@/src/assets/images/regenerated_image_1778690949754.png';
+import memberManjeet from '@/src/assets/images/regenerated_image_1778756456008.png';
 
 export default function About() {
   const [activeTab, setActiveTab] = useState<'mission' | 'certificates' | 'members'>('mission');
@@ -210,9 +211,21 @@ export default function About() {
                     { name: "MR. ARUN PAL", role: "Social Worker & Gen. Secretary", desc: "S/o: Sh. SURESH PAL, R/o: Shaheed Bhagat Singh Colony, Tapovan, Adhoiwala, Dehradun, Uttarakhand-248001." },
                   ].map((member, i) => (
                     <div key={i} className="bg-white/5 rounded-[32px] p-8 border border-white/10 text-left">
+                      {member.name === "MR. MANJEET PAL" ? (
+                      <div className="w-28 h-28 rounded-full overflow-hidden border-2 border-lime-cta/30 mb-8 relative shadow-xl">
+                        <Image 
+                          src={memberManjeet}
+                          alt={member.name}
+                          fill
+                          className="object-cover"
+                          referrerPolicy="no-referrer"
+                        />
+                      </div>
+                    ) : (
                       <div className="w-20 h-20 bg-black/20 rounded-full flex items-center justify-center mb-6">
                         <Users className="w-8 h-8 text-white/50" />
                       </div>
+                    )}
                       <h3 className="text-xl font-bold mb-1">{member.name}</h3>
                       <p className="text-lime-cta font-medium text-sm uppercase tracking-wide mb-4">{member.role}</p>
                       <p className="text-white/60 text-sm leading-relaxed">{member.desc}</p>
