@@ -3,7 +3,7 @@
 import * as React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { motion, useScroll, useTransform } from 'motion/react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowRight, CheckCircle2, HeartHandshake, Scissors, GraduationCap, Users, Heart } from 'lucide-react';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';

@@ -3,7 +3,7 @@
 import * as React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { motion, useScroll, useTransform } from 'motion/react';
+import { motion, useScroll, useTransform } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import logoImage from '@/src/assets/images/regenerated_image_1778676211432.png';
 

@@ -4,7 +4,7 @@ import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { Scissors, Briefcase, Laptop } from 'lucide-react';
 import Image from 'next/image';
-import { motion } from 'motion/react';
+import { motion } from 'framer-motion';
 import prog1Img from '@/src/assets/images/regenerated_image_1778686695277.png';
 import prog2Img from '@/src/assets/images/regenerated_image_1778686698625.png';
 import prog3Img from '@/src/assets/images/regenerated_image_1778686701978.png';

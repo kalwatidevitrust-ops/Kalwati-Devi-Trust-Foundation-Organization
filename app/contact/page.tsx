@@ -32,7 +32,7 @@ export default function Contact() {
                 <Mail className="w-10 h-10 text-lime-cta" />
                 <div>
                   <span className="block text-sm text-white/50 mb-1">Email Us</span>
-                  <span className="text-xl font-bold font-serif break-all">kalwatidevitrust@gmail.com</span>
+                  <span className="text-xl font-bold font-serif break-all">Clginfokdtf@gmail.com</span>
                 </div>
               </div>
 

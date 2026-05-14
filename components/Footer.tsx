@@ -52,7 +52,7 @@ export function Footer() {
             </li>
             <li className="flex items-center gap-3 text-white/70">
               <Mail className="w-5 h-5 shrink-0 text-lime-cta opacity-80" />
-              <span>kalwatidevitrust@gmail.com</span>
+              <span>Clginfokdtf@gmail.com</span>
             </li>
           </ul>
         </div>
